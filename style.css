@@ -61,7 +61,11 @@ div h1 {
 .abt img {
     margin-top: 20px;
 }
-p {
+h1 + p {
+    color: #333;
+    margin: 20px;
+}
+h2 ~ p {
     color: #333;
     margin: 20px;
 }
